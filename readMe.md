@@ -140,8 +140,8 @@ if [ ! -e $file ]
 then
   echo 'file is not exist'
 fi
-touch $file
-# 是普通
+touch $file # 创建文件
+# 是普通文件
 if [ -f $file ] 
 then
   echo "file is a normal file"
